@@ -1,4 +1,3 @@
-t
 Dataset Description
 Overview
 This dataset, titled "Top US Songs from 1950 to 2019 with Lyrics," provides a comprehensive collection of popular songs in the United States spanning nearly seven decades. It includes essential details about each song, such as the title, artist, year of release, and the lyrics.
