@@ -6,15 +6,15 @@ This dataset includes details about popular songs in the United States from 1950
 
 ## Variables in the Dataset
 
-| Variable | Description                              |
-|----------|------------------------------------------|
-| Rank     | The chart ranking of the song.           |
-| Song     | The title of the song.                   |
-| Artist   | The artist who performed the song.       |
-| Year     | The year the song was released.          |
-| Lyrics   | The lyrics of the song.                  |
-| Length   | The duration of the song.                |
-| Genre    | The genre of the song.                   |
+| Variable | Description                              | Data Type   |
+|----------|------------------------------------------|-------------|
+| Rank     | The chart ranking of the song.           | Integer     |
+| Song     | The title of the song.                   | String      |
+| Artist   | The artist who performed the song.       | String      |
+| Year     | The year the song was released.          | Integer     |
+| Lyrics   | The lyrics of the song.                  | String      |
+| Length   | The duration of the song.                | Time        |
+| Genre    | The genre of the song.                   | String      |
 
 ## Potential Uses
 
