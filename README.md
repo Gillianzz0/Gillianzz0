@@ -34,3 +34,9 @@ This dataset can be used for analyzing trends in music, lyrical themes, and the 
 songs_specific_year = songs_df[songs_df['year'] == 1988].sort_values(by='rank', ascending=True)
 print(songs_specific_year.head(10))
 
+**1. View the Top 20 Songs of a Specific Year**
+
+```python
+# retrieve and display the top 20 songs from the year 1980
+songs_1980 = songs_df[songs_df['year'] == 1980].sort_values(by='rank', ascending=True)
+print(songs_1980.head(20))
