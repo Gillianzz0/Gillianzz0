@@ -24,3 +24,12 @@ This dataset can be used for analyzing trends in music, lyrical themes, and the 
 
 - **Dataset Creator**: Stefan Comanita
 - **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/stefancomanita/top-us-songs-from-1950-to-2019-w-lyrics)
+
+## Data Analysis and Visualization
+
+### 1. View the Top 10 Songs of a Specific Year
+
+```python
+songs_specific_year = songs_df[songs_df['year'] == 1988].sort_values(by='rank', ascending=True)
+print(songs_specific_year.head(10))
+
