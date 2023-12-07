@@ -34,13 +34,3 @@ This dataset can be used for analyzing trends in music, lyrical themes, and the 
 songs_specific_year = songs_df[songs_df['year'] == 1988].sort_values(by='rank', ascending=True)
 print(songs_specific_year.head(10))
 
-**Question:** Which were the top 20 songs in the year 1980?
-
-**Question:** Who are the top 20 artists with the most songs in the dataset?
-
-```python
-# Count the number of songs per artist and select the top 20
-artist_counts = songs_df['artist'].value_counts().head(20)
-# Create a bar plot to visualize the top 20 artists with the most songs
-artist_counts.plot(kind='bar', figsize=(14, 7), color='skyblue', edgecolor='black', title='Top 20 Artists with the Most Songs in the Dataset')
-
